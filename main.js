@@ -1,16 +1,16 @@
-       // Center the element after scrolling
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                let targetElement = document.querySelector(this.getAttribute('href'));
 
-                // Scroll to the element and center it
- targetElement.scrollIntoView({
-                    behavior: 'smooth',
-                    block: 'center' // This will center the element in the viewport
-                });
-            });
-        });
+//         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+//             anchor.addEventListener('click', function (e) {
+//                 e.preventDefault();
+//                 let targetElement = document.querySelector(this.getAttribute('href'));
+
+
+//  targetElement.scrollIntoView({
+//                     behavior: 'smooth',
+//                     block: 'center' 
+//                 });
+//             });
+//         });
 
 
         // Open the full-screen overlay menu
