@@ -30,15 +30,9 @@
 .closebtn {
     font-size: 36px;
     position: absolute;
-top: 0;
+    top: 0;
     right: 25px;
     color: #fff;
     text-decoration: none;
     cursor: pointer;
-}
-
-.content {
-    margin-top: 80px;
-    padding: 20px;
-    text-align: center;
 }
