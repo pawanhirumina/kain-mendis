@@ -1,12 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kain mendis 2</title>
-</head>
-<body>
-    <h1>Kain Mendis 2</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="assets/Poppins/fonts.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+    <link
+      rel="shortcut icon"
+      href="assets/icons/favicon.png"
+      type="image/png"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="I'm teen who is a Going to be a bigger artist arround the world"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/assets/css/nav.css" />
+    <script src="main.js" defer></script>
+    <title>Kain Mendis - Artist</title>
+  </head>
+  <body>
+    <nav id="nav">
+      <div class="container">
+        <span class="logo">Kain Mendis</span>
+        <ul>
+          <li>
+            <img
+              id="navham"
+              onclick="openNav()"
+              src="assets/icons/hamburger.svg"
+              alt=""
+            />
+          </li>
+          <li><a href="#header_title" aria-label="Home">Home</a></li>
+          <li><a href="#about_title" aria-label="About">About</a></li>
+          <li><a href="#music_title" aria-label="Music">Music</a></li>
+          <!-- <li><a href="#contact_title" aria-label="Contact">Contact</a></li> -->
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Full Width Overlay Menu -->
+    <div id="overlay" class="overlay">
+      <span class="closebtn" onclick="closeNav()">&times;</span>
+      <div class="overlay-content">
+        <a href="#header_title">Home</a>
+        <a href="#about_title">About</a>
+        <a href="#music_title">Music</a>
+        <!-- <a href="#contact_title">Contact</a> -->
+      </div>
+    </div>
+
+    <header id="header" class="header">
+      <div class="container" id="header_title">
+        <h1 id="title">
+          <span id="header_title"></span> Welcome to Kain's Official Website
+        </h1>
+        <p id="description">
+          Hello, and welcome! An emerging musician with a passion for creating
+          heartfelt and inspiring music. This is where you can explore my
+          musical journey, listen to my latest tracks, and get to know me
+          better. Thank you for visiting, and I’m excited to share my work with
+          you!
+        </p>
+        <br />
+        <div class="followers">
+          <a href="https://www.youtube.com/@KAIN_MENDIS" class="yt"
+            ><span class="fab fa-youtube"></span> 1.15K subscribers</a
+          >
+          <a
+            href="https://www.youtube.com/redirect?event=channel_description&redir_token=QUFFLUhqazVFR0hhWUdncGxDcUNERlNfaWNXd3F4cDd0QXxBQ3Jtc0ttd2RSczJTd0ZOWTdQQ2YwRzhPNzQ0cnVPRUU1SE94MVNDLXFHM2k3eDdZSXl1RGFub1haZGFacFU5QldrNDZ4NEtUcTN3bkxzeEszX3I4S2N0TTFfbGFnSEhWUkxRdFA5THl5YnQ4dzhBYUJRWUlDaw&q=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D100077884706540"
+          >
+            <span class="fab fa-facebook"></span> 2.2k Followers</a
+          >
+        </div>
+        <br />
+      </div>
+    </header>
+
+    <section id="about" class="about">
+      <div class="container">
+        <div class="aboutme_text">
+          <h1 id="title"><span id="about_title"></span>About Me</h1>
+          <p id="description">
+            Hi! I’m <b>Kain Mendis</b> , and music has always been a part of who
+            I am. I started my musical journey at a young age, experimenting
+            with different sounds and styles that represent my emotions and
+            experiences. My music is a reflection of my thoughts, dreams, and
+            struggles. Though I'm still growing as an artist, I’m excited to
+            share my creations with the world and connect with others who
+            appreciate the beauty of music. I believe in the power of music to
+            bring people together and tell stories that words sometimes can’t
+            express.
+          </p>
+          <br />
+        </div>
+        <br />
+        <div class="aboutme_pic">
+          <img
+            src="assets/img/profile_pic.webp"
+            loading="lazy"
+            alt="profile_pic"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="music" class="music">
+      <div class="container">
+        <h1 id="title"><span id="music_title"></span>My Music</h1>
+        <p id="description">
+          Here, you can explore the sounds that I’ve poured my heart into
+          creating. Each track tells a story, whether it’s about love, life, or
+          self-discovery. Some of these songs are from my earliest beginnings,
+          while others reflect my growth as an artist. Keep checking back for
+          new releases and updates as I continue to create and share my music
+          with you. Feel free to listen, share, and join me on this musical
+          journey!
+        </p>
+        <br />
+        <div class="card_container">
+          <a
+            aria-label="Song 1"
+            href="https://youtu.be/zDhf2BBM_ic?list=PLd9R80ZjGzU3vL6gv0op1TSV5cAlNnTxG"
+            class="card song1"
+          >
+          </a>
+          <a
+            aria-label="Song 2"
+            href="https://www.youtube.com/watch?v=UtNPEwo8wok"
+            class="card song2"
+          >
+          </a>
+          <a
+            aria-label="Song 3"
+            href="https://www.youtube.com/watch?v=tESMaCNR1vE"
+            class="card song3"
+          >
+          </a>
+        </div>
+        <div class="card_container">
+          <a
+            aria-label="Song 4"
+            href="https://www.youtube.com/watch?v=bTq8T-9JAeo"
+            class="card song4"
+          >
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section id="contact" class="contact">
+      <div class="container">
+        <h1 id="title"><span id="contact_title"></span>Contact Me</h1>
+        <p id="description">
+          I’d love to hear from you! Whether you’re a fan, a fellow artist, or just someone who wants to connect, feel free to reach out. If you have any inquiries, booking requests, or just want to say hello, use the form below to contact me. Let’s chat and stay in touch!
+        </p><br>
+          <form action="thankyou.html">
+        <div class="input_container">
+            <label for="name">Name : <br>
+            <input type="text" name="name" placeholder="Your Name Here" required autocomplete="off"><br>
+            </label>
+        </div>
+        <div class="input_container">
+            <label for="name">Email : <br>
+            <input type="email" name="email" placeholder="Your Email Here" required autocomplete="off"><br>
+            </label>
+        </div>
+        <div class="input_container">
+            <label for="message">Message : <br>
+              <textarea name="message" id="message" placeholder="Your Message Here" required autocomplete="off"></textarea><br>
+            </label>
+        </div>
+        <div class="input_container">
+          <input class="cta" type="submit" value="Submit">
+        </div>
+           
+          
+        </div>
+      </div>
+      </div>
+    </section> -->
+
+    <footer id="footer" class="footer">
+      <p>&copy; 2025 Kain Mendis. All rights reserved.</p>
+      <p>
+        <a
+          href="https://www.youtube.com/@KAIN_MENDIS"
+          class="fab fa-youtube"
+        ></a>
+        <a
+          href="https://www.youtube.com/redirect?event=channel_description&redir_token=QUFFLUhqazVFR0hhWUdncGxDcUNERlNfaWNXd3F4cDd0QXxBQ3Jtc0ttd2RSczJTd0ZOWTdQQ2YwRzhPNzQ0cnVPRUU1SE94MVNDLXFHM2k3eDdZSXl1RGFub1haZGFacFU5QldrNDZ4NEtUcTN3bkxzeEszX3I4S2N0TTFfbGFnSEhWUkxRdFA5THl5YnQ4dzhBYUJRWUlDaw&q=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D100077884706540"
+          class="fab fa-facebook"
+        ></a
+        ><a
+          href="https://www.youtube.com/redirect?event=channel_description&redir_token=QUFFLUhqa0VuemRUcE5NMllyMHRxdkd5TkduN1hRUVhNQXxBQ3Jtc0ttV2hGWFFsVV83R01ZQ1dtYkJsajAtQW9IdHBTbUZyZGY3b1RQMUdrS1dXQzFEVUtkZm51VFR2TFloV1Vwc2R2QWVGbjVmb2xTNGZ3R01OVlFtblB5aVlBbi1PM1I3VjNSUlZabVRWSnVyS256VWRYbw&q=https%3A%2F%2Fwww.tiktok.com%2F%40willzen_music%3F_t%3D8kq1MnyNIzB%26_r%3D1"
+          class="fab fa-tiktok"
+        ></a>
+        <a href="mailto:Willzensocial@gmail.com" class="fas fa-envelope"></a>
+      </p>
+    </footer>
+  </body>
 </html>
