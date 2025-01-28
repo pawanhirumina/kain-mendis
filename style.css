@@ -210,6 +210,14 @@ button {
   border: 1px solid var(--black);
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
 }
+button.cta {
+  color: #fff;
+  background: #202020;
+  outline: none;
+  width: 100%;
+  padding: 15px;
+  border-radius: 6px;
+}
 
 textarea {
   height: 200px;
@@ -559,4 +567,25 @@ footer a {
     max-width: 400px;
     margin: 10px 0;
   }
+  button.cta {
+    color: #fff;
+    background: #202020;
+    outline: none;
+    width: 100%;
+    padding: 15px;
+    border-radius: 6px;
+  }
+  input,
+textarea,
+button {
+  resize: vertical;
+  color: #fff;
+  background: #202020;
+  outline: none;
+  width: 100%;
+  padding: 15px 10px;
+  border-radius: 6px;
+  border: 1px solid var(--black);
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
 }
