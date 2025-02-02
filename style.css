@@ -49,22 +49,27 @@ nav {
   /* animation: navBar 2s; */
 }
 
-@keyframes  navLink {
-  0% {transform: translateY(-100px);}
-  90% {transform: translateY(-100px);}
-  100% {transform: translateY(0px);}
-  
+@keyframes navLink {
+  0% {
+    transform: translateY(-67px);
+  }
+  90% {
+    transform: translateY(-67px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
 .navlink__header {
   animation-delay: 200ms;
 }
-.navlink__about{
+.navlink__about {
   animation-delay: 400ms;
 }
 .navlink__music {
   animation-delay: 600ms;
 }
- .navlink__contact{
+.navlink__contact {
   animation-delay: 800ms;
 }
 nav a {
@@ -99,6 +104,7 @@ nav .container {
   margin: 0 auto;
 }
 nav .logo {
+  animation: navLink 2s;
   display: flex;
   align-items: center;
   font-weight: 600;
@@ -605,16 +611,16 @@ footer a {
     border-radius: 6px;
   }
   input,
-textarea,
-button {
-  resize: vertical;
-  color: #fff;
-  background: #202020;
-  outline: none;
-  width: 100%;
-  padding: 15px 10px;
-  border-radius: 6px;
-  border: 1px solid var(--black);
-  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
-}
+  textarea,
+  button {
+    resize: vertical;
+    color: #fff;
+    background: #202020;
+    outline: none;
+    width: 100%;
+    padding: 15px 10px;
+    border-radius: 6px;
+    border: 1px solid var(--black);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+  }
 }
