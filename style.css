@@ -46,13 +46,33 @@ nav {
   top: 0;
   left: 0;
   z-index: 10;
+  /* animation: navBar 2s; */
 }
 
+@keyframes  navLink {
+  0% {transform: translateY(-100px);}
+  90% {transform: translateY(-100px);}
+  100% {transform: translateY(0px);}
+  
+}
+.navlink__header {
+  animation-delay: 200ms;
+}
+.navlink__about{
+  animation-delay: 400ms;
+}
+.navlink__music {
+  animation-delay: 600ms;
+}
+ .navlink__contact{
+  animation-delay: 800ms;
+}
 nav a {
   display: none;
   text-decoration: none;
   position: relative;
   transition: color 0.3s ease;
+  animation: navLink 2s;
 }
 nav a::after {
   content: "";
@@ -116,6 +136,15 @@ nav ul li a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.header #title {
+  font-size: 54px;
+  font-weight: 900;
+}
+.header #sub__title {
+  font-size: 14px;
+  line-height: 2rem;
+  color: var(--grey-light);
 }
 .header .followers {
   color: #fff;
