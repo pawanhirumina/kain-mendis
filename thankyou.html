@@ -4,86 +4,142 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="stylesheet" href="assets/Poppins/fonts.css" />
-    <link rel="shortcut icon" href="assets/icons/favicon.ico" type="image/png">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    /> -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+<!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+<!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet"> -->
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  />
+      rel="shortcut icon"
+      href="assets/icons/favicon.ico"
+      type="image/ico"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
       content="I'm teen who is a Going to be a bigger artist arround the world"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="assets/css/thankyou.css" />
-    <link rel="stylesheet" href="/assets/css/nav.css" />
-    <script src="main.js" defer></script>
+    <script src="./scripts/main.js" defer></script>
+    <link rel="stylesheet" href="/styles/main.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/thankyou.css">
     <title>Thanks for Getting in Touch!</title>
   </head>
   <body>
-    <nav id="nav">
-      <div class="container">
-        <span class="logo">Kain Mendis</span>
+    <header class="header container">
+      <nav>
         <ul>
-          <li><img id="navham" onclick="openNav()" src="assets/icons/hamburger.svg" alt="" /></li>
-          <li><a href="/index.html#header_title" aria-label="Home">Home</a></li>
-          <li><a href="/index.html#about_title" aria-label="About">About</a></li>
-          <li><a href="/index.html#music_title" aria-label="Music">Music</a></li>
-          <!-- <li><a href="/index.html#services_title" aria-label="Services">Services</a></li> -->
-          <li><a href="/index.html#contact_title" aria-label="Contact">Contact</a></li>
+          <li>
+            <a href="index.html#hero" aria-label="hero" data-scroll="hero" class="nav__link">Home</a>
+          </li>
+          <li>
+            <a href="index.html#about" aria-label="about" data-scroll="about" class="nav__link"
+              >About</a
+            >
+          </li>
+          <li>
+            <a href="index.html#work" aria-label="work" data-scroll="work" class="nav__link">Music</a>
+          </li>
+          <li>
+            <a href="index.html#contact" aria-label="contact" data-scroll="contact" class="nav__link"
+              >Contact</a
+            >
+          </li>
         </ul>
-      </div>
-    </nav>
 
-
-
-    <!-- Full Width Overlay Menu -->
-    <div id="overlay" class="overlay">
-      <span class="closebtn" onclick="closeNav()">&times;</span>
-      <div class="overlay-content">
-          <a href="/index.html#header_title">Home</a>
-          <a href="/index.html#about_title">About</a>
-          <a href="/index.html#music_title">Music</a>
-          <!-- <a href="/index.html#services_title">Services</a> -->
-          <a href="/index.html#contact_title">Contact</a>
-      </div>
-  </div>
-
-    <header id="thank_you" class="thank_you">
-      <div class="container" id="header_title">
-        <h1 id="title">Thank You!</h1>
-        <p id="description">
-          Your message has been successfully submitted. We are reviewing your inquiry and will respond soon. Thank you for your interest, and have a wonderful day!<br>
-        </p>
-        <a href="index.html">back to the home page</a>
-      </div>
+        <svg
+          onclick="openNav()"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 50 50"
+          id="nav__menu"
+          class="nav__menu"
+          width="50px"
+          height="50px"
+        >
+          <path
+            d="M 0 7.5 L 0 12.5 L 50 12.5 L 50 7.5 Z M 0 22.5 L 0 27.5 L 50 27.5 L 50 22.5 Z M 0 37.5 L 0 42.5 L 50 42.5 L 50 37.5 Z"
+          />
+        </svg>
+      </nav>
     </header>
 
-    <footer id="footer" class="footer">
-      <p>&copy; 2025 Kain Mendis. All rights reserved.</p>
-      <p>
+    <main>
+      <div class="thankyou__section">
+        <div class="thankyou__container">
+        <h1 class="thankyou__title">Thank You!</h1>
+        <p class="thankyou__description">Your message has been successfully submitted. We are reviewing your inquiry and will respond soon. Thank you for your interest, and have a wonderful day!</p>
+        <a href="index.html" class="cta">Back to the homepage</a>
+      </div>
+      </div>
+      </main>
+
+
+      <footer class="footer__section">
+        <div class="footer__container">
+        <p>&copy; 2025 Kain Mendis. All rights reserved.</p>
+        <p>
+          <a
+            href="https://www.youtube.com/@KAIN_MENDIS"
+            class="fab fa-youtube"
+          ></a>
+          <a
+            href="https://www.facebook.com/Kain.Mendiss"
+            class="fab fa-facebook"
+          ></a
+          ><a
+            href="https://www.tiktok.com/@kain_mendiss"
+            class="fab fa-tiktok"
+          ></a>
+          <a href="mailto:Willzensocial@gmail.com" class="fas fa-envelope"></a>
+        </p>
+      </div>
+      </footer>
+
+      <!-- Side Navigation Menu -->
+      <div id="mySidenav" class="side-nav">
+        <!-- Close button -->
+        <span href="javascript:void(0)" class="close-btn" onclick="closeNav()"
+          >×</span
+        >
+        <!-- Side Nav Links -->
         <a
-          href="https://www.youtube.com/@KAIN_MENDIS"
-          class="fab fa-youtube"
-        ></a>
+          href="index.html#hero"
+          onclick="navigate()"
+          aria-label="hero"
+          data-scroll="hero"
+          class="nav__link"
+          >Home</a
+        >
         <a
-          href="https://www.facebook.com/Kain.Mendiss"
-          class="fab fa-facebook"
-        ></a
-        ><a
-          href="https://www.tiktok.com/@kain_mendiss"
-          class="fab fa-tiktok"
-        ></a>
-        <a href="mailto:Willzensocial@gmail.com" class="fas fa-envelope"></a>
-      </p>
-    </footer>
-    </footer>
-    <script src="main.js"></script>
+          href="index.html#about"
+          onclick="navigate()"
+          aria-label="about"
+          data-scroll="about"
+          class="nav__link"
+          >About</a
+        >
+        <a
+          href="index.html#work"
+          onclick="navigate()"
+          aria-label="work"
+          data-scroll="work"
+          class="nav__link"
+          >Music</a
+        >
+        <a
+          href="index.html#contact"
+          onclick="navigate()"
+          aria-label="contact"
+          data-scroll="contact"
+          class="nav__link"
+          >Contact</a
+        >
+      </div>
+    </main>
   </body>
 </html>
