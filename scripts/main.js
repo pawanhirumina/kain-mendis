@@ -7,3 +7,4 @@ function closeNav() {
 function navigate() {
   closeNav();
 }
+

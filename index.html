@@ -2,8 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <!-- <link rel="stylesheet" href="assets/Poppins/fonts.css" /> -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -120,9 +121,9 @@
       <section class="about__section" id="about">
         <div class="about__container">
           <div class="about__text">
-            <h1 class="about__title">About Me</h1>
+            <h1 class="about__title" data-aos="fade-right">About Me</h1>
             <div class="about__description">
-              <p>
+              <p data-aos="fade-right">
                 Hi! I’m
                 <strong
                   ><a
@@ -143,7 +144,7 @@
               </p>
             </div>
           </div>
-          <div class="about__img">
+          <div class="about__img" data-aos="fade-left">
             <img
               src="./assets/img/profile_pic.webp"
               alt="Profile Pic"
@@ -155,8 +156,14 @@
       </section>
       <section class="music__section" id="work">
         <div class="music__container">
-          <h1 class="music__title">My Music</h1>
-          <p class="music__description">
+          <h1 class="music__title" data-aos="fade-right" data-aos-delay="100">
+            My Music
+          </h1>
+          <p
+            class="music__description"
+            data-aos="fade-right"
+            data-aos-delay="200"
+          >
             Here, you can explore the sounds that I’ve poured my heart into
             creating. Each track tells a story, whether it’s about love, life,
             or self-discovery. Some of these songs are from my earliest
@@ -165,7 +172,7 @@
             and share my music with you. Feel free to listen, share, and join me
             on this musical journey!
           </p>
-          <div class="music__cards">
+          <div class="music__cards" data-aos="fade-left" data-aos-delay="300">
             <!-- first music card start -->
 
             <div class="music-player" data-player-id="1">
@@ -365,8 +372,8 @@
 
       <section class="contact__section" id="contact">
         <div class="contact__container">
-          <h1 class="contact__title">Get in touch</h1>
-          <p class="contact__description">
+          <h1 class="contact__title" data-aos="fade-right">Get in touch</h1>
+          <p class="contact__description" data-aos="fade-right">
             I’d love to hear from you! Whether you’re a fan, a fellow artist, or
             just someone who wants to connect, feel free to reach out. If you
             have any inquiries, booking requests, or just want to say hello, use
@@ -377,6 +384,7 @@
             action="https://api.web3forms.com/submit"
             method="POST"
             class="contact__form"
+            data-aos="fade-right"
           >
             <input
               type="hidden"
@@ -512,5 +520,8 @@
         >
       </div>
     </main>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
