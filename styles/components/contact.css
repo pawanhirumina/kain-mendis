@@ -96,7 +96,8 @@ label {
   
 
 .privacy-policy {
-  width: calc(300px + 30px);
+  max-width: calc(300px + 30px);
+  width: 100%;
   margin: 10px 20px;
   display: flex;
   align-items: center;
