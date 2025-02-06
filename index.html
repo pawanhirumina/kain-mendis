@@ -385,7 +385,7 @@
             <input
               type="hidden"
               name="redirect"
-              value="https://kain-mendis.pages.dev/thankyou"
+              value="https://kainmendis.online/thankyou"
             />
             <div class="contact__input">
               <label for="name"
@@ -430,13 +430,23 @@
                 ><br />
               </label>
             </div>
-
+            <div class="contact__input">
+            <div class="privacy-policy">
+               
+        <input type="checkbox" id="privacyPolicy" name="privacyPolicy">
+        <label for="privacyPolicy">    I have read and agree to the <a href="privacy-policy.html" target="_blank">Privacy Policy</a>. </a></label><br><br>
+            </div>
+  
+            </div>
             <div class="contact__input">
               <button
                 id="contact__inputsend"
                 class="cta"
                 type="submit"
                 value="Submit"
+                disabled
+                id="submitBtn" 
+                class="disabled-button"
               >
                 Send <i class="fa-solid fa-paper-plane"></i>
               </button>

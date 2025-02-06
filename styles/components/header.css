@@ -11,7 +11,7 @@ nav {
   align-items: center;
   margin: 0 20px;
 }
-nav ul {
+ nav ul {
   display: none;
   list-style: none;
   justify-content: flex-end;
@@ -25,7 +25,6 @@ nav.nav__menu {
   outline: none;
   background-color: transparent;
   z-index: 999;
-
 }
 nav li {
   transform: translateY(-60px);
@@ -81,7 +80,7 @@ nav li:nth-child(1) {
     display: block;
   }
   .nav__link:hover {
-    filter: drop-shadow(2px 2px 5px  var(--clr-primary));
+    filter: drop-shadow(2px 2px 5px var(--clr-primary));
 
     color: var(--clr-primary);
   }
