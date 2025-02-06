@@ -57,13 +57,15 @@ html, body {
       overflow-x: hidden;
       transition: 0.5s;
       padding-top: 60px;
+      font-family: "Poppins", serif;
   }
 
   /* Links inside the side nav */
   .side-nav a {
       padding: 8px 8px 8px 32px;
       text-decoration: none;
-      font-size: 1.5rem;
+      user-select: none;
+      font-size: 1.2rem;
       color: #fff;
       display: block;
       transition: 0.3s;
