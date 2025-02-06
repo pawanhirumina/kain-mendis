@@ -8,18 +8,24 @@
     text-align: center;
     font-family: "Poppins", serif;
 }
-
-
-  footer a {
+.footer__container {
+  margin: 0 20px;
+}
+  footer .fab, .fas {
     text-decoration: none;
     color: var(--white);
     margin: 10px 10px;
     transition: color 0.3s;
   }
-  footer a:hover {
+  footer .fab .fas:hover {
     color: var(--clr-primary);
   }
-  
+  footer .privacy-policy {
+
+  }
+  footer a:hover {
+    text-decoration: none;
+  }
 
 @media screen and (min-width: 480px) {
   .footer__container {
