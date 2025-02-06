@@ -93,6 +93,8 @@ label {
   opacity: 0.95;
 }
 
+  
+
 .privacy-policy {
   width: calc(300px + 30px);
   margin: 10px 20px;
@@ -117,6 +119,10 @@ label {
   cursor: not-allowed;
   opacity: 0.5;
 }
+
+
+
+
 @media screen and (min-width: 480px) {
   .contact__container {
     margin: 0 50px;
