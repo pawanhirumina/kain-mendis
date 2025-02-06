@@ -185,3 +185,29 @@ audio {
     
 
 }
+@media screen and (min-width: 1440px) {
+    .music__container {
+        margin: 0 350px;
+    }
+    .music__title {
+        margin: 10px 0;
+        font-size: var(--fnt-h1-lg);
+        color: var(--clr-white);
+    }
+    .music__description {
+        font-size: var(--fnt-p-lg);
+        color: var(--clr-grey-l);
+        line-height: 1.5;
+    }
+    .music__cards {
+  
+        display: flex;
+        flex-direction: row;
+
+    }
+    .music-player {
+        width: 190px;
+    }
+    
+
+}

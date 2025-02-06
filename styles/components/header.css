@@ -92,7 +92,7 @@ nav li:nth-child(1) {
 
 @media screen and (min-width: 1024px) {
   nav {
-    margin: 0 350px;
+    margin: 0 300px;
   }
   nav ul {
     display: flex;
@@ -102,5 +102,10 @@ nav li:nth-child(1) {
   }
   .nav__link {
     display: block;
+  }
+}
+@media screen and (min-width: 1440px) {
+  nav {
+    margin: 0 350px;
   }
 }
