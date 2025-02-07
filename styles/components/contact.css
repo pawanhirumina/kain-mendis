@@ -6,6 +6,7 @@
   align-items: center;
   margin-top: 60px;
 }
+
 .contact__container {
   margin: 0 20px;
   display: flex;
@@ -17,6 +18,7 @@
   height: auto;
   flex-direction: column;
 }
+
 .contact__title {
   float: left;
   text-align: left;
@@ -29,9 +31,11 @@
   font-size: var(--fnt-p-sm);
   line-height: 1.5;
 }
+
 .contact__form {
   margin-top: 1rem;
 }
+
 .contact__form .contact__input {
   /* margin: 50px 0; */
   /* width: 100%; */
@@ -42,6 +46,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .contact__form input {
   /* margin: 50px 0; */
   /* width: 100%; */
@@ -52,11 +57,13 @@
   justify-content: center;
   align-items: center;
 }
+
 label {
   color: var(--clr-white);
   font-size: var(--fnt-p-sm);
   /* margin: 5px 0; */
 }
+
 #contact__inputname,
 #contact__inputemail,
 #contact__inputmessage,
@@ -74,6 +81,7 @@ label {
   border: 1px solid var(--clr-grey-d);
   transition: all 0.3s;
 }
+
 #contact__inputname:focus,
 #contact__inputemail:focus,
 #contact__inputmessage:focus {
@@ -84,10 +92,12 @@ label {
   height: 120px;
   resize: vertical;
 }
+
 #contact__inputsend {
   cursor: pointer;
   transition: all 0.3s;
 }
+
 #contact__inputsend:hover {
   cursor: pointer;
   opacity: 0.95;
@@ -105,10 +115,12 @@ label {
     font-size: var(--fnt-h1-xs);
     line-height: 1.5;
   }
+
   .contact__description {
     font-size: var(--fnt-p-xs);
   }
 }
+
 @media screen and (min-width: 768px) {
   .contact__container {
     margin: 0 100px;
@@ -118,11 +130,13 @@ label {
     font-size: var(--fnt-h1-md);
     margin: 10px 0;
   }
+
   .contact__description {
     font-size: var(--fnt-p-md);
     line-height: 1.5;
   }
 }
+
 @media screen and (min-width: 1024px) {
   .contact__container {
     margin: 0 300px;
@@ -131,11 +145,13 @@ label {
   .contact__title {
     font-size: var(--fnt-h1-lg);
   }
+
   .contact__description {
     font-size: var(--fnt-p-lg);
     line-height: 1.5;
   }
 }
+
 @media screen and (min-width: 1440px) {
   .contact__container {
     margin: 0 350px;
