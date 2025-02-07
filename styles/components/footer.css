@@ -11,16 +11,17 @@
 .footer__container {
   margin: 0 20px;
 }
-#privacy {
-  text-decoration: underline;
-} 
-.footer__section a {
+.fab,
+.fa-brands,
+.fas {
   text-decoration: none;
   color: var(--clr-white);
-  margin: 10px 5px;
+  margin: 10px 10px;
   transition: color 0.3s;
 }
-.footer__section a:hover {
+.fab:hover,
+.fa-brands:hover,
+.fas:hover {
   color: var(--clr-primary);
 }
 footer a:hover {
