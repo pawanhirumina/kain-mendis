@@ -11,6 +11,15 @@
 .footer__container {
   margin: 0 20px;
 }
+.fa-spotify {
+  text-decoration: none;
+  color: var(--clr-white);
+  margin: 10px 10px;
+  transition: color 0.3s;
+}
+.fa-spotify:hover {
+  color: var(--clr-primary);
+}
 .fab,
 .fa-brands,
 .fas {
