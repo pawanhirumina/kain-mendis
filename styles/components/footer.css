@@ -1,31 +1,30 @@
 .footer__section {
-    backdrop-filter: blur(5px);
-    background-color: rgba(0, 0, 0, 0.542);
-    bottom: 0;
-    color: #fff;
-    padding: 20px 0;
-    margin-top: 30px;
-    text-align: center;
-    font-family: "Poppins", serif;
+  backdrop-filter: blur(5px);
+  background-color: rgba(0, 0, 0, 0.542);
+  bottom: 0;
+  color: #fff;
+  padding: 20px 0;
+  margin-top: 30px;
+  text-align: center;
+  font-family: "Poppins", serif;
 }
 .footer__container {
   margin: 0 20px;
 }
-  footer .fab, .fas {
-    text-decoration: none;
-    color: var(--white);
-    margin: 10px 10px;
-    transition: color 0.3s;
-  }
-  footer .fab .fas:hover {
-    color: var(--clr-primary);
-  }
-  footer .privacy-policy {
-
-  }
-  footer a:hover {
-    text-decoration: none;
-  }
+.fab,
+.fas {
+  text-decoration: none;
+  color: var(--clr-white);
+  margin: 10px 10px;
+  transition: color 0.3s;
+}
+.fab:hover,
+.fas:hover {
+  color: var(--clr-primary);
+}
+footer a:hover {
+  text-decoration: none;
+}
 
 @media screen and (min-width: 480px) {
   .footer__container {

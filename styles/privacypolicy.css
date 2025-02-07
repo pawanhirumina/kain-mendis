@@ -28,7 +28,9 @@
 }
 .privacy__policy__section h2 {
     margin: 10px 0;
-    font-size: var(--fnt-h1-sm);
+    /* font-size: var(--fnt-h1-sm); */
+    font-size: 1.3rem;
+    font-weight: 400;
 }
   .privacy__policy__section{
     line-height: 1.5;
