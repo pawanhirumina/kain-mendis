@@ -8,26 +8,21 @@
   text-align: center;
   font-family: "Poppins", serif;
 }
-
 .footer__container {
   margin: 0 20px;
 }
-
-.fab,
-.fa-brands,
-.fas {
+#privacy {
+  text-decoration: underline;
+} 
+.footer__section a {
   text-decoration: none;
   color: var(--clr-white);
-  margin: 10px 10px;
+  margin: 10px 5px;
   transition: color 0.3s;
 }
-
-.fab:hover,
-.fa-brands:hover,
-.fas:hover {
+.footer__section a:hover {
   color: var(--clr-primary);
 }
-
 footer a:hover {
   text-decoration: none;
 }
@@ -37,19 +32,16 @@ footer a:hover {
     margin: 0 50px;
   }
 }
-
 @media screen and (min-width: 768px) {
   .footer__container {
     margin: 0 100px;
   }
 }
-
 @media screen and (min-width: 1024px) {
   .footer__container {
     margin: 0 300px;
   }
 }
-
 @media screen and (min-width: 1440px) {
   .footer__container {
     margin: 0 350px;
