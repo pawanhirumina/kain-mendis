@@ -26,6 +26,8 @@
       name="description"
       content="Discover the poetic artistry of Kain Mendis, a talented music lyricist crafting soulful, evocative lyrics that resonate with audiences. Explore a collection of heartfelt songs, lyrical masterpieces, and creative collaborations. Dive into the world of music, emotion, and storytelling."
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="/styles/main.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="./scripts/main.js"></script>
@@ -118,8 +120,8 @@
       <section class="about__section" id="about">
         <div class="about__container">
           <div class="about__text">
-            <h1 class="about__title">About Me</h1>
-            <div class="about__description">
+            <h1 class="about__title" data-aos="fade-down">About Me</h1>
+            <div class="about__description" data-aos="fade-down">
               <p>
                 Hi! I’m
                 <strong
@@ -141,7 +143,7 @@
               </p>
             </div>
           </div>
-          <div class="about__img">
+          <div class="about__img" data-aos="fade-down">
             <img
               src="./assets/img/profile_pic.webp"
               alt="Profile Pic"
@@ -153,8 +155,8 @@
       </section>
       <section class="music__section" id="work">
         <div class="music__container">
-          <h1 class="music__title">My Music</h1>
-          <p class="music__description">
+          <h1 class="music__title" data-aos="fade-down" data-aos-delay="100">My Music</h1>
+          <p class="music__description" data-aos="fade-down" data-aos-delay="200">
             Here, you can explore the sounds that I’ve poured my heart into
             creating. Each track tells a story, whether it’s about love, life,
             or self-discovery. Some of these songs are from my earliest
@@ -163,10 +165,10 @@
             and share my music with you. Feel free to listen, share, and join me
             on this musical journey!
           </p>
-          <div class="music__cards">
+          <div class="music__cards" data-aos="fade-down" data-aos-delay="300">
             <!-- first music card start -->
 
-            <div class="music-player" data-player-id="1">
+            <div class="music-player" data-player-id="1" data-aos="fade-down" data-aos-delay="400">
               <div class="album-art">
                 <img src="./assets/song/surgnaviyk.webp" alt="Album Art" />
                 <button
@@ -231,7 +233,7 @@
               </a>
             </div>
 
-            <div class="music-player" data-player-id="2">
+            <div class="music-player" data-player-id="2" data-aos="fade-down" data-aos-delay="500">
               <div class="album-art">
                 <img src="./assets/song/wiswasaya.webp" alt="Album Art" />
                 <button
@@ -293,7 +295,7 @@
               </a>
             </div>
 
-            <div class="music-player" data-player-id="3">
+            <div class="music-player" data-player-id="3" data-aos="fade-down" data-aos-delay="600">
               <div class="album-art">
                 <img src="./assets/song/wirahawa.webp" alt="Album Art" />
                 <button
@@ -363,8 +365,8 @@
 
       <section class="contact__section" id="contact">
         <div class="contact__container">
-          <h1 class="contact__title">Get in touch</h1>
-          <p class="contact__description">
+          <h1 class="contact__title" data-aos="fade-down" data-aos-delay="650">Get in touch</h1>
+          <p class="contact__description" data-aos="fade-down" data-aos-delay="650">
             I’d love to hear from you! Whether you’re a fan, a fellow artist, or
             just someone who wants to connect, feel free to reach out. If you
             have any inquiries, booking requests, or just want to say hello, use
@@ -375,6 +377,7 @@
             action="https://api.web3forms.com/submit"
             method="POST"
             class="contact__form"
+            
           >
             <input
               type="hidden"
@@ -386,7 +389,7 @@
               name="redirect"
               value="https://kainmendis.online/thankyou"
             />
-            <div class="contact__input">
+            <div class="contact__input" data-aos="fade-down" data-aos-delay="650">
               <label for="name"
                 >Name : <br />
                 <input
@@ -400,7 +403,7 @@
                 /><br />
               </label>
             </div>
-            <div class="contact__input">
+            <div class="contact__input" data-aos="fade-down" data-aos-delay="650">
               <label for="name"
                 >Email : <br />
                 <input
@@ -414,7 +417,7 @@
                 /><br />
               </label>
             </div>
-            <div class="contact__input">
+            <div class="contact__input" data-aos="fade-down" data-aos-delay="650">
               <label for="message"
                 >Message : <br />
                 <textarea
@@ -430,7 +433,7 @@
               </label>
             </div>
 
-            <div class="contact__input">
+            <div class="contact__input" data-aos="fade-down" data-aos-delay="650">
               <button
                 id="contact__inputsend"
                 class="cta"
@@ -519,5 +522,8 @@
         >
       </div>
     </main>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
