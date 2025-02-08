@@ -11,15 +11,10 @@
 .footer__container {
   margin: 0 20px;
 }
-.fa-spotify {
-  text-decoration: none;
-  color: var(--clr-white);
-  margin: 10px 10px;
-  transition: color 0.3s;
+.footer__links {
+  margin: 10px 0;
 }
-.fa-spotify:hover {
-  color: var(--clr-primary);
-}
+.fa-spotify,
 .fab,
 .fa-brands,
 .fas {
@@ -28,6 +23,7 @@
   margin: 10px 10px;
   transition: color 0.3s;
 }
+.fa-spotify:hover,
 .fab:hover,
 .fa-brands:hover,
 .fas:hover {
