@@ -1,11 +1,11 @@
-@import url('./reset.css');
-@import url('./components/footer.css');
-@import url('./components/contact.css');
-@import url('./components/music.css');
-@import url('./components/about.css');
-@import url('./components/header.css');
-@import url('./components/hero.css');
-@import url('./components/utils.css');
+@import url("./reset.css");
+@import url("./components/footer.css");
+@import url("./components/contact.css");
+@import url("./components/music.css");
+@import url("./components/about.css");
+@import url("./components/header.css");
+@import url("./components/hero.css");
+@import url("./components/utils.css");
 
 * {
     padding: 0;
@@ -18,14 +18,12 @@
 html,
 body {
     background-color: var(--clr-black);
-
 }
 
 ::-webkit-scrollbar {
     width: 6px;
     height: 1px;
 }
-
 
 ::-webkit-scrollbar-track {
     background-color: rgb(165, 165, 165, 0.5);
@@ -40,9 +38,7 @@ body {
 ::-webkit-scrollbar-thumb:hover {
     transform: translateX(10px);
     background-color: rgb(165, 165, 165);
-
 }
-
 
 /* Style for the side nav */
 .side-nav {
