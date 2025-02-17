@@ -8,27 +8,26 @@
   text-align: center;
   font-family: "Poppins", serif;
 }
+
 .footer__container {
   margin: 0 20px;
 }
+
 .footer__links {
-  margin: 10px 0;
+  /* margin: 10px 0; */
 }
-.fa-spotify,
-.fab,
-.fa-brands,
-.fas {
+
+.fa {
   text-decoration: none;
   color: var(--clr-white);
   margin: 10px 10px;
   transition: color 0.3s;
 }
-.fa-spotify:hover,
-.fab:hover,
-.fa-brands:hover,
-.fas:hover {
+
+.fa:hover {
   color: var(--clr-primary);
 }
+
 footer a:hover {
   text-decoration: none;
 }
@@ -38,16 +37,19 @@ footer a:hover {
     margin: 0 50px;
   }
 }
+
 @media screen and (min-width: 768px) {
   .footer__container {
     margin: 0 100px;
   }
 }
+
 @media screen and (min-width: 1024px) {
   .footer__container {
     margin: 0 300px;
   }
 }
+
 @media screen and (min-width: 1440px) {
   .footer__container {
     margin: 0 350px;

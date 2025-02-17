@@ -39,6 +39,7 @@
   color: var(--clr-grey-l);
   font-size: var(--fnt-p-sm);
   line-height: 1.5;
+  margin-bottom: 14px;
 }
 
 .hero__cta {

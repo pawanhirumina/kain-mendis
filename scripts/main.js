@@ -9,3 +9,4 @@ function navigate() {
 }
 
 
+console.log("Website Logged")
