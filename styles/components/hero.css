@@ -1,8 +1,6 @@
 .hero__section {
   background-image: url("/assets/img/small_header.webp");
-  /* margin-top: -60px; */
   background-position: center;
-  /* background-attachment: fixed; */
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
