@@ -1,10 +1,11 @@
 .music__section {
     /* width: 100%; */
     /* height: auto; */
-    height: 60vh;
+    /* height: 60vh; */
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 5rem 0;
 }
 
 .music__container {

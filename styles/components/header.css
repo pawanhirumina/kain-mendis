@@ -37,6 +37,7 @@ nav li {
 }
 
 .nav__link {
+  font-family: 'Poppins', sans-serif;
   color: var(--clr-white);
   text-decoration: none;
   margin: 0 5px;

@@ -129,7 +129,6 @@
 
   .hero__description {
     font-size: var(--fnt-p-lg);
-    font-size: 1.5rem;
     line-height: 1.5;
   }
 }
