@@ -9,4 +9,7 @@ function navigate() {
 }
 
 
-console.log("%Design and Development by Pawan Hirumina", "color: green; font-size: 1rem;")
+console.log("%cDesign and Development by Pawan Hirumina." , "color: #007AFF; font-size: 1rem;")
+console.log("%cGmail - %cmailto:pawanhirumina71@gmail.com." , "color: #fff; font-size: 0.8rem;", "color: #FFF; font-size: 0.8rem;")
+console.log("%cGithub - %cwww.github.com/Nexsite" , "color: #fff; font-size: 0.8rem;", "color: #FFF font-size: 0.8rem;")
+console.log("%cGithub - %cwww.instagram.com/pawan.hirumina" , "color: #fff; font-size: 0.8rem;", "color: #FFF font-size: 0.8rem;")
