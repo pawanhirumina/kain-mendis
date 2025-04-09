@@ -9,4 +9,4 @@ function navigate() {
 }
 
 
-console.log("Website Logged")
+console.log("%Design and Development by Pawan Hirumina", "color: green; font-size: 1rem;")

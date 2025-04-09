@@ -228,3 +228,18 @@ audio {
         width: 190px;
     }
 }
+.song-info #suranganaviyak::after {
+    content: "Suranganaviyak";
+}
+.song-info #music_title_2::after {
+    content: "Wishwasaya";
+
+}
+@media (min-width: 1440px) {
+    .song-info #suranganaviyak::after {
+        content: "Surang...";
+    }
+    .song-info #music_title_2::after {
+        content: "Wishwas...";
+    }
+}
