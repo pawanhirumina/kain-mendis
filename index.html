@@ -17,15 +17,21 @@
 <meta property=og:site_name content="Kain Mendis">
 <meta property=og:type content=website>
 <meta property=og:description content="Discover the poetic artistry of Kain Mendis, a talented music lyricist crafting soulful, evocative lyrics that resonate with audiences. Explore a collection of heartfelt songs, lyrical masterpieces, and creative collaborations. Dive into the world of music, emotion, and storytelling.">
-<link href=https://unpkg.com/aos@2.3.1/dist/aos.css rel=stylesheet>
-<script src=https://unpkg.com/aos@2.3.1/dist/aos.js></script>
-<link rel=stylesheet href=/styles/main.css>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css rel=stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<link rel="stylesheet" href="/styles/main.css">
 <meta name=viewport content="width=device-width,initial-scale=1">
 <script src=./scripts/main.js></script>
 <script src=./scripts/musicplayer.js defer></script>
 <title>Kain Mendis | Artist | Producer</title>
 </head>
 <body>
+    <a href="https://youtu.be/O-i4qrPgAmw?si=v9pdCnfknM1B-qOx" target="_blank" rel="noopener noreferrer" class="new-song">
+        <img src="./assets/img/vikarai.webp" alt="">
+    </a>
+  <div class="banner">
+    <button class="close">Close</button>
+  </div>
 <header class="header container">
 <nav>
 <ul>
@@ -60,7 +66,7 @@ An emerging musician with a passion for creating heartfelt and inspiring music. 
 <a href="https://open.spotify.com/artist/6G6eu1yrvsVyr1kWZu29FZ?si=TXNRwLE_S-SxsNo3UIsm8w&nd=1&dlsi=256fed3dd4614f74" class="cta-secondary hero__cta">Listen Now</a>
 </div>
 </section>
-<section class=about__section id=about>
+<section class="about__section" id=about>
 <div class=about__container>
 <div class=about__text>
 <h1 class=about__title data-aos=fade-down>About Me</h1>
@@ -85,6 +91,37 @@ My Music
 Here, you can explore the sounds that I’ve poured my heart into creating. Each track tells a story, whether it’s about love, life, or self-discovery. Some of these songs are from my earliest beginnings, while others reflect my growth as an artist. Keep checking back for new releases and updates as I continue to create and share my music with you. Feel free to listen, share, and join me on this musical journey!
 </p>
 <div class=music__cards data-aos=fade-down data-aos-delay=300>
+
+<!-- Music Card 4 -->
+<div class=music-player data-player-id=4 data-aos=fade-down data-aos-delay=600>
+  <div class=album-art>
+  <img src="./assets/img/vikarai.webp" alt="Album Art">
+  <button aria-label="play button" id=play-button-4 class=play-button onclick=togglePlay(4)>
+  <svg id=play-icon-4 xmlns=https://www.w3.org/2000/svg viewBox="0 0 24 24" width=16px height=16px>
+  <path d="M8 5v14l11-7z" fill=currentColor />
+  </svg>
+  <svg style=display:none id=pause-icon-4 xmlns=https://www.w3.org/2000/svg viewBox="0 0 24 24" width=16px height=16px>
+  <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z" fill=currentColor />
+  </svg>
+  </button>
+  </div>
+  <div class=song-info>
+  <h4>Vikarai <span class="new">Hot</span></h4>
+  <p>Duration 2:52</p>
+  <audio id=audio-player-4>
+  <source src="/assets/song/KAIN MENDIS Vikarai Official Music Video.ogg" type=audio/mpeg>
+  Your browser does not support the audio element.
+  </audio>
+  </div>
+  <a href="https://youtu.be/O-i4qrPgAmw?si=v9pdCnfknM1B-qOx" target=_blank aria-label="open link" rel="noopener noreferrer">
+  <svg class=heart__svg xmlns=https://www.w3.org/2000/svg stroke=1px stroke-color=green width=24 height=24 viewBox="0 0 24 24">
+  <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+  </svg>
+  </a>
+  </div>
+
+
+<!-- Music Card 1 -->
 <div class=music-player data-player-id=1 data-aos=fade-down data-aos-delay=400>
 <div class=album-art>
 <img src=./assets/song/surgnaviyk.webp alt="Album Art">
@@ -111,6 +148,8 @@ Your browser does not support the audio element.
 </svg>
 </a>
 </div>
+
+<!-- Music Card 2 -->
 <div class=music-player data-player-id=2 data-aos=fade-down data-aos-delay=500>
 <div class=album-art>
 <img src=./assets/song/wiswasaya.webp alt="Album Art">
@@ -137,6 +176,8 @@ Your browser does not support the audio element.
 </svg>
 </a>
 </div>
+
+<!-- Music Card 3 -->
 <div class=music-player data-player-id=3 data-aos=fade-down data-aos-delay=600>
 <div class=album-art>
 <img src=./assets/song/wirahawa.webp alt="Album Art">
@@ -163,6 +204,12 @@ Your browser does not support the audio element.
 </svg>
 </a>
 </div>
+
+
+
+
+
+
 </div>
 </div>
 </section>
@@ -224,5 +271,6 @@ Send <i class="fa-solid fa-paper-plane"></i>
 </div>
 </main>
 <script>AOS.init()</script>
+
 </body>
 </html>

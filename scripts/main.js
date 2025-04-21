@@ -9,6 +9,10 @@ function navigate() {
 }
 
 
+function closeNotice() {
+  document.getElementById("notice").style.display = 'none';
+}
+
 console.log("%cDesign and Development by Pawan Hirumina." , "color: #007AFF; font-size: 1rem;")
 console.log("%cGmail - %cmailto:pawanhirumina71@gmail.com." , "color: #fff; font-size: 0.8rem;", "color: #FFF; font-size: 0.8rem;")
 console.log("%cGithub - %cwww.github.com/Nexsite" , "color: #fff; font-size: 0.8rem;", "color: #FFF font-size: 0.8rem;")
